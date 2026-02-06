@@ -23,9 +23,9 @@ h2 {
     justify-content: center;
 }
 section {
+  flex: auto;
   display: flex;
   flex-direction: column;
-  flex: auto;
   background: #F6F3ED;
   margin: 10px;
   padding: 20px;
@@ -44,4 +44,8 @@ section {
   padding: 5px;
   width: 100%;
   text-align: center;
+}
+
+.photo {
+  order: -1;
 }
